@@ -83,7 +83,7 @@ REST_FRAMEWORK = {
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-DATABASES = {'default': dj_database_url.config(os.environ['DATABASE_URL'])}
+DATABASES = {'default': dj_database_url.config()}
 # Enable Connection Pooling
 DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
