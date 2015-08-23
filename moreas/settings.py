@@ -101,7 +101,7 @@ DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Ukraine/Kiev'
+TIME_ZONE = 'Europe/Helsinki'
 
 USE_I18N = True
 
