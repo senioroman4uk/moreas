@@ -1,0 +1,50 @@
+/* app css stylesheet */
+body {
+    background: url("/static/img/underwater-coral-reef-Great-Barrier-1545752-1600x1200.jpg") no-repeat fixed;
+    color: #FFFFFF;
+    /*height: 1200px;*/
+}
+
+.filled {
+    background-color: #dd2f1f;
+    /*margin-top: 20px;*/
+    padding: 20px;
+}
+
+.nav-tabs.nav-justified > li > a {
+    color: #FFFFFF;
+    border-width: 0 0 2px 0;
+    /*hides doted border in firefox*/
+    outline: none;
+}
+
+.nav-tabs.nav-justified > li > a:hover,
+.nav-tabs.nav-justified > li > a:focus,
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+    color: #dd2f1f;
+    background-color: transparent;
+    border-width: 0 0 2px 0;
+    border-color: #dd2f1f;
+}
+
+.navigation {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-bottom-width: 0;
+}
+
+.navigation > ul {
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+.black {
+    color: black;
+}
