@@ -7,7 +7,5 @@ tmp
 .idea
 package.json
 karma.conf.js
-bower.json
-.bowerrc
 .jshintrc
 .travis.yml
