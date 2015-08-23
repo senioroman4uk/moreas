@@ -1,0 +1,26 @@
+{
+  "name": "moreas",
+  "description": "A moreas web-site",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "angular-route": "~1.4.4",
+    "bootstrap": "~3.3.5",
+    "gmaps.js": "~0.4.19",
+    "normalize.css": "~3.0.3"
+  },
+  "authors": [
+    "Vladyslav Romanchuk <senioroman4uk@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/bower_components",
+    "test",
+    "tests"
+  ]
+}
