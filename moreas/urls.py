@@ -16,11 +16,13 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from contact.views import *
+from products.views import *
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 
     url(r'^api/contact$', ContactUsView.as_view(), name='contact'),
+    url(r'^api/products', ProductsView.as_view(), name='products'),
 
     url(r'^.*$', IndexView.as_view(), name='index')
 ]

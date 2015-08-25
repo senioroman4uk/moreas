@@ -41,7 +41,8 @@ else:
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
-        'contact'
+        'contact',
+        'products'
     )
 
     MIDDLEWARE_CLASSES = (

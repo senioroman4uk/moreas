@@ -1,0 +1,11 @@
+<h1>Products</h1>
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" ng-repeat="column in vm.products">
+        <div class="news-v1-in fx-zoom-left" ng-repeat="product in column">
+            <img alt="" class="img-responsive" ng-src="{{ product.image }}">
+            <h3>{{ product.title }}</h3>
+            <p ng-bind-html="product.description | unsafe"></p>
+        </div>
+    </div>
+    
+</div>

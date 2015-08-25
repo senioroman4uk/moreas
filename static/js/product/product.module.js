@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('moreas.product', ['moreas.product.oontrollers', 'moreas.product.services']);
+    angular.module('moreas.product', ['moreas.product.controllers', 'moreas.product.services']);
 
     angular.module('moreas.product.controllers', []);
     angular.module('moreas.product.services', []);

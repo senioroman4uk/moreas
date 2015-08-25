@@ -21,6 +21,11 @@
                 page: 'contact',
                 controller: 'ContactPageController as ctrl'
             }).
+            when('/products', {
+                templateUrl: 'static/partials/products.html',
+                page: 'products',
+                controller: 'ProductPageController as vm'
+            }).
             otherwise({redirectTo: '/'});
     }
 })();

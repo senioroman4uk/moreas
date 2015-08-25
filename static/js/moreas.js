@@ -1,6 +1,7 @@
 (function () {
     'use strict';
-    angular.module('moreas', ['moreas.config', 'moreas.routes', 'moreas.layout', 'moreas.contact']);
+    angular.module('moreas', ['ngSanitize', 'ngFx', 'ngAnimate', 'moreas.config', 'moreas.routes', 'moreas.filters',
+        'moreas.layout', 'moreas.contact', 'moreas.product']);
 
     angular.module('moreas').run(run);
     run.$inject = ['$http'];
