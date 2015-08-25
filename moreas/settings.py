@@ -112,6 +112,9 @@ else:
         os.path.join(BASE_DIR, 'static'),
     )
 
+    MEDIA_ROOT = 'media'
+    MEDIA_URL = '/media/'
+
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 # STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'

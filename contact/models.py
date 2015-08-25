@@ -18,8 +18,7 @@ class ContactUsMessage(models.Model):
 class SlideShowImage(models.Model):
     title = models.TextField(max_length=50)
     description = models.TextField(max_length=100, blank=True)
-    src = models.ImageField(
-        upload_to=os.path.join('static', 'img/contact/gallery'))
+    src = models.ImageField(upload_to='img/contact/gallery')
 
 
 @receiver(post_delete, sender=SlideShowImage)

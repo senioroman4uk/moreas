@@ -9,14 +9,13 @@ import moreas.settings
 class Product(models.Model):
     title = models.TextField(max_length=100)
     description = models.TextField(blank=True)
-    image = models.ImageField(
-        upload_to=os.path.join([moreas.settings.STATIC_ROOT, 'static'][
-                                   moreas.settings.DEBUG], 'img/products'))
+    image = models.ImageField(upload_to='img/products')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.title
+
 
 @receiver(post_delete, sender=Product)
 def product_post_delete_handler(sender, instance, **kwargs):
