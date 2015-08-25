@@ -2,7 +2,6 @@ logs/*
 !.gitkeep
 node_modules/
 .bowerrc
-bower_components
 bower.json
 tmp
 .DS_Store
